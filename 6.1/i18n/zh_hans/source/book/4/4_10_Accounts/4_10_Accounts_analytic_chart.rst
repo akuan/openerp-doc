@@ -64,7 +64,7 @@
 .. i18n:                         * Product Range 2
 ..
 
-.. note::  制造行业辅助核算科目表
+.. 备注::  制造行业辅助核算科目表
 
                 #. 营销部
 
@@ -90,12 +90,12 @@
 .. i18n: In daily use, it is useful to mark the analytic account on each purchase invoice. The analytic account is the one to which the costs of that purchase should be allocated. When the invoice is approved, it will automatically generate the entries for both the general and the corresponding analytic accounts. So, for each entry on the general accounts, there is at least one analytic entry that allocates costs to the department which incurred them.
 ..
 
-In daily use, it is useful to mark the analytic account on each purchase invoice. The analytic account is the one to which the costs of that purchase should be allocated. When the invoice is approved, it will automatically generate the entries for both the general and the corresponding analytic accounts. So, for each entry on the general accounts, there is at least one analytic entry that allocates costs to the department which incurred them.
+在日常使用中，为每张采购发票建立辅助核算科目是很有用的，辅助核算科目表指定了采购成本如何分布。 发票审核通过后，总账分录和对应的辅助核算科目分录将自动生成。对于总账上的每条分录，至少有一条辅助核算分录将成本分配到对应的发生部门。
 
 .. i18n: Here is a possible breakdown of some general accounting entries for the example above, allocated to various analytic accounts:
 ..
 
-Here is a possible breakdown of some general accounting entries for the example above, allocated to various analytic accounts:
+上边例子中的一些总账分录，可以按下表分解，以分配到不同的辅助核算科目。
 
 .. i18n: .. csv-table::  Breakdown of general and analytic accounting entries (Case 1)
 .. i18n:    :header: "General accounts","","","","","Analytic accounts",""
@@ -114,18 +114,18 @@ Here is a possible breakdown of some general accounting entries for the example 
 .. i18n:    "PR ","614","450","","","Marketing","-450 "
 ..
 
-.. csv-table::  Breakdown of general and analytic accounting entries (Case 1)
-   :header: "General accounts","","","","","Analytic accounts",""
+.. csv-table::  总账分录和辅助核算科目分录分解 (例 1)
+   :header: "总账","","","","","辅助核算项目",""
    :widths: 10,5,5,5,2,10,8
 
-   "Title","Account","Debit","Credit","","Account","Value"
-   "Purchase of Raw Material","600","1500","","","Production / Range 1","-1 500"
+   "项目","科目","借方","贷方","","科目","金额"
+   "购买原材料","600","1500","","","产品 / 分类 1","-1 500"
    "Subcontractors","602","450","","","Production / Range 2","-450"
    "Credit Note for defective materials","600","","200","","Production / Range 1","200"
-   "Transport charges","613","450","","","Production / Range 1","-450"
-   "Staff costs","6201","10000","","","Marketing","-2 000"
-   "","","","","","Commercial","-3 000"
-   "","","","","","Administrative","-1 000"
+   "运费","613","450","","","Production / Range 1","-450"
+   "人工成本","6201","10000","","","营销部","-2 000"
+   "","","","","","商务部","-3 000"
+   "","","","","","行政部","-1 000"
    "","","","","","Production / Range 1","-2 000"
    "","","","","","Production / Range 2","-2 000"
    "PR ","614","450","","","Marketing","-450 "
