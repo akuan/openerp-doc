@@ -24,11 +24,11 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
 .. i18n:         #. IT Services Company.
 ..
 
-        #. Industrial Manufacturing Enterprise,
+        #. 制造行业企业,
 
-        #. Law Firm,
+        #. 律师事务所,
 
-        #. IT Services Company.
+        #. IT服务行业.
 
 .. i18n: Case 1: Industrial Manufacturing Enterprise
 .. i18n: -------------------------------------------
