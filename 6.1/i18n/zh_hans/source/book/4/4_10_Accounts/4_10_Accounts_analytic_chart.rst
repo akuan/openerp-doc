@@ -15,7 +15,7 @@
 .. i18n: To illustrate analytic accounts clearly, you will follow three use cases, each in one of three different types of company:
 ..
 
-To illustrate analytic accounts clearly, you will follow three use cases, each in one of three different types of company:
+为了清楚的演示辅助核算科目表，下边举三个不同行业的辅助核算科目表例子。
 
 .. i18n:         #. Industrial Manufacturing Enterprise,
 .. i18n: 
@@ -40,12 +40,12 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
 .. i18n: In industry, you will often find analytic charts of accounts structured into departments and products the company itself is built on.
 ..
 
-In industry, you will often find analytic charts of accounts structured into departments and products the company itself is built on.
+在制造行业中，辅助核算科目表通常是按公司自身的部门和产品来组织的。
 
 .. i18n: So the objective is to examine the costs, sales and margins by department and by product. The first level of the structure comprises the different departments, and the lower levels represent the product ranges the company makes and sells.
 ..
-
-So the objective is to examine the costs, sales and margins by department and by product. The first level of the structure comprises the different departments, and the lower levels represent the product ranges the company makes and sells.
+ 
+因此，其目的就是按部门和产品去检查成本，销售和利润。辅助核算科目表的第一层由不同的部门组成，下边的一层代表公司生产和销售的产品分类。
 
 .. i18n: .. note::  Analytic Chart of Accounts for an Industrial Manufacturing Company
 .. i18n: 
@@ -64,21 +64,21 @@ So the objective is to examine the costs, sales and margins by department and by
 .. i18n:                         * Product Range 2
 ..
 
-.. note::  Analytic Chart of Accounts for an Industrial Manufacturing Company
+.. note::  制造行业辅助核算科目表
 
-                #. Marketing Department
+                #. 营销部
 
-                #. Commercial Department
+                #. 商务部
 
-                #. Administration Department
+                #. 行政部
 
-                #. Production
+                #. 产品
 
-                        * Product Range 1
+                        * 产品分类 1
 
-                        * Sub-groups
+                        * 子类
 
-                        * Product Range 2
+                        * 产品分类 2
 
 .. i18n: .. index::
 .. i18n:    pair: cost; allocation
